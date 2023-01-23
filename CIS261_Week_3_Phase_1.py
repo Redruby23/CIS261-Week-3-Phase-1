@@ -63,7 +63,7 @@ if __name__ == "__main__":
         # write the code to assign to hourlyrate the return value from GetHourlyRate
         Gethourlyrate = Gethourlyrate()
         if (Gethourlyrate.upper() =="END"):
-            break
+            break 
         # write the code to assign to taxrate the return value from GetTaxRate 
         GetTaxRate = GetTaxRate()
         if (GetTaxRate.upper() == "END"):
